@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ask-sdk = "==1.15.0"
+
+[dev-packages]
+boto3 = "==1.15.16"
+requests_mock = "==1.8.0"
